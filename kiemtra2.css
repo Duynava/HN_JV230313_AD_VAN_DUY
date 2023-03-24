@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.content{
+    display: flex;
+    align-items: center;
+height: 100px;
+background-color: #ea4517ca;
+color: white;
+justify-content: space-between;
+padding: 0px 50px;
+}
+label{
+    margin-right:100px;
+    background-color: aliceblue;
+    color: red;
+    width: 40px;
+    height:40px;
+    text-align: center;
+    
+
+}
+input{
+    margin-left: 90px;
+    height:40px;
+    width: 300px;
+}
+.noidung-a{
+    padding: 30px 0;
+}
+.body-head-img{
+    background-color: rgb(131, 133, 134);
+   
+   
+
+}
+.sanpham{
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: rgb(182, 187, 192);
+    gap: 3px;
+    padding: 20px 0;
+}
+.noidung-a{
+    background-color: aliceblue;
+
+}
+.code-ngaora{
+    width: calc(100% / 6);
+    background: white;
+    
+   
+}
+.code-ngaora img {
+ width:100%
+}
+.ngu-code-sanpham{
+  
+}
+.icon-{
+display: flex;
+justify-content: space-between;
+}
+.space-{
+    height: 3px;
+    background: #ea4517ca;
+
+}
+.body-contact{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 20px;
+    background: rgb(182, 187, 192);
+
+}
+.space2{
+    height: 3px;
+    background:black;
+}
+.namae{
+    color: red ;
+}
+@media screen and(max-width) {
+    
+}
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    height: 80px;
+  }
+  
+  .slider .circle {
+    width: 12px;
+    height: 12px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  @media screen and(max-width:480px){
+    content{
+        height: auto;
+
+    }   
+    h1{
+        font-size: 24px;
+    }
+    body-head{
+        display: none;
+    }
+   
+  } 
+
+
